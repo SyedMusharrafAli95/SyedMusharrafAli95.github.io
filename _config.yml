@@ -1,7 +1,23 @@
-title: Syed Musharraf Ali | AI Engineer (LLMs & Agents)
-description: Building autonomous AI agents and fine-tuning custom LLMs. Architecting scalable, production-ready AI systems from datasets to deployment.
-theme: jekyll-theme-midnight
+title: Syed Musharraf Ali | AI Engineer
+description: Building autonomous AI agents and fine-tuning custom LLMs.
 
-# Add your profile image (logo parameter displays at top/sidebar)
-logo: /assets/ME.jpg
-show_downloads: false
+# Pulls the modern community theme instead of the outdated default ones
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+
+# Required plugin for this theme to work on GitHub Pages
+plugins:
+  - jekyll-include-cache
+
+# This automatically builds a beautiful sidebar with your picture!
+author:
+  name: "Syed Musharraf Ali"
+  avatar: "/assets/ME.jpg"   # Your image will automatically be circular
+  bio: "AI Engineer (LLMs & Agents)"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://de.linkedin.com/in/musharraf95"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/SyedMusharrafAli95"
