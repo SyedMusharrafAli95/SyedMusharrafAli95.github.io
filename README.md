@@ -1,7 +1,6 @@
----
-layout: single
-author_profile: true
----
+<div align="center">
+  <img src="./assets/ME.jpg" alt="Syed Musharraf Ali" width="150" height="150" style="border-radius: 50%; object-fit: cover; display: block; margin: 0 auto 20px auto;">
+</div>
 
 ## About Me
 AI Engineer with hands-on experience in **custom LLM fine-tuning**, **RAG architectures**, and **multi-agent orchestration systems**. Passionate about bridging state-of-the-art foundation models with enterprise production environments.
@@ -26,3 +25,10 @@ AI Engineer with hands-on experience in **custom LLM fine-tuning**, **RAG archit
 > *Fine-tuned open-weights models (Llama 3/Mistral) on specialized datasets achieving benchmark improvements.*
 * **Tech Stack:** PyTorch, Hugging Face `transformers`, PEFT, vLLM
 * [View Repository](#) | [Model Card](#)
+
+---
+
+## Contact & Links
+* 💼 **LinkedIn:** [linkedin.com/in/musharraf95](https://de.linkedin.com/in/musharraf95)
+* 🐙 **GitHub:** [github.com/SyedMusharrafAli95](https://github.com/SyedMusharrafAli95)
+* 📧 **Email:** alisyedmusharraf1995@gmail.com
