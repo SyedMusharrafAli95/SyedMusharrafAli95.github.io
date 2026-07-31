@@ -4,3 +4,4 @@ theme: jekyll-theme-midnight
 
 # Add your profile image (logo parameter displays at top/sidebar)
 logo: /assets/ME.jpg
+show_downloads: false
