@@ -1,0 +1,7 @@
+theme: jekyll-theme-hacker
+title: Syed Musharraf Ali | AI Engineer (LLMs & Agents)
+description: Building autonomous AI agents and fine-tuning custom LLMs. Architecting scalable, production-ready AI systems from datasets to deployment.
+
+# Optional metadata to enhance the modern look
+logo: /assets/img/avatar.png   # Path to your profile image/avatar
+show_downloads: false          # Keeps the header clean
