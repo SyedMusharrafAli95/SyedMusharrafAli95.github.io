@@ -151,13 +151,20 @@
     box-shadow:0 0 8px var(--good);
     flex-shrink:0;
   }
+  .name-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1.5rem;
+    flex-wrap:wrap;
+  }
   .avatar{
-    width:88px; height:88px;
-    border-radius:50%;
+    width:130px; height:130px;
+    border-radius:20px;
     object-fit:cover;
     border:2px solid var(--accent);
-    box-shadow:0 0 24px var(--accent-soft);
-    margin-bottom:1.5rem;
+    box-shadow:0 0 30px var(--accent-soft);
+    flex-shrink:0;
   }
   .btn-row{ display:flex; flex-wrap:wrap; gap:.85rem; }
   .btn{
@@ -363,9 +370,11 @@
 <header class="hero" id="top">
   <div class="container hero-inner">
     <div>
-      <img src="assets/ME.jpg" alt="Syed Musharraf Ali" class="avatar">
-      <div class="eyebrow">AI Engineer — LLMs &amp; Agents</div>
+    <div class="eyebrow">AI Engineer — LLMs &amp; Agents</div>
+    <div class="name-row">
       <h1>Syed Musharraf<br><span class="accent-underline">Ali</span></h1>
+      <img src="assets/ME.jpg" alt="Syed Musharraf Ali" class="avatar">
+    </div>
       <p class="hero-lede">I build autonomous agents and fine-tune LLMs — systems that go from raw, messy data to production, and know exactly when to stop and ask a human instead of guessing.</p>
       <div class="hero-meta"><span class="dot"></span>Duisburg, Germany</div>
       <div class="btn-row">
