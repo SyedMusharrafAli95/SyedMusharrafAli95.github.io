@@ -151,7 +151,14 @@
     box-shadow:0 0 8px var(--good);
     flex-shrink:0;
   }
-
+  .avatar{
+    width:88px; height:88px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid var(--accent);
+    box-shadow:0 0 24px var(--accent-soft);
+    margin-bottom:1.5rem;
+  }
   .btn-row{ display:flex; flex-wrap:wrap; gap:.85rem; }
   .btn{
     font-family:var(--font-mono);
@@ -356,6 +363,7 @@
 <header class="hero" id="top">
   <div class="container hero-inner">
     <div>
+      <img src="assets/ME.jpg" alt="Syed Musharraf Ali" class="avatar">
       <div class="eyebrow">AI Engineer — LLMs &amp; Agents</div>
       <h1>Syed Musharraf<br><span class="accent-underline">Ali</span></h1>
       <p class="hero-lede">I build autonomous agents and fine-tune LLMs — systems that go from raw, messy data to production, and know exactly when to stop and ask a human instead of guessing.</p>
